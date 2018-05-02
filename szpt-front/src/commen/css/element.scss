@@ -1,0 +1,87 @@
+.el-table{
+    color:#fff;
+    background: #0B1149;
+    tr{
+        height:50px;
+        font-size: 15px;
+    }
+    thead{
+        color:#76FCFF;
+        background: #0B1149;
+        font-size: 16px;
+    }
+    th.is-leaf{
+        border-bottom:1px solid  rgb(39, 52, 175);
+        background: #0B1149;
+    }
+    tr{
+        background: #0B1149;
+    }
+}
+.el-table__body{
+    border-top:1px solid  rgb(39, 52, 175);
+    border-left:1px solid  rgb(39, 52, 175);
+    border-right:1px solid  rgb(39, 52, 175);
+}
+.el-table__body tbody td{
+    border-right:1px solid  rgb(39, 52, 175);
+    border-bottom:1px solid  rgb(39, 52, 175);
+}
+.el-table__body-wrapper{
+    width: 99.8%;
+    border-right:1px solid  rgb(39, 52, 175);
+}
+.el-table::before{
+    background-color:transparent;
+}
+// 表格页码的样式改变
+.el-pager li ,.el-pagination .btn-next, .el-pagination .btn-prev{
+    background:transparent;
+    color: #fff;
+    min-width: 28px;
+    border: 1px solid #344E8C;
+    border-radius: 100%;
+    margin: 0 3px;
+}
+.el-pagination .btn-next {
+    padding-left: 8px;
+}
+.el-pager li.btn-quicknext,.el-pagination__total,.el-pagination__jump{
+    color:#fff;
+}
+
+// 进度条的样式改变
+#studen_pie {
+    .el-progress{
+        line-height: 7;
+        .el-progress__text{
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            color: #fff;
+            font-size: 14px !important;
+            display: none;
+        }
+        
+    }
+    li:nth-child(1)  .el-progress-bar__inne{
+        background:linear-gradient(270deg, rgba(19, 209, 255, 1) 0%, rgba(19, 209, 255, 1) 0%, rgba(39, 137, 228, 1) 100%, rgba(39, 137, 228, 1) 100%) !important;
+    }
+    li:nth-child(2)  .el-progress-bar__inne{
+        background:linear-gradient(270deg, rgba(19, 209, 255, 1) 0%, rgba(19, 209, 255, 1) 0%, rgba(39, 137, 228, 1) 100%, rgba(39, 137, 228, 1) 100%) !important;
+    }
+    li:nth-child(3)  .el-progress-bar__inne{
+        background:linear-gradient(270deg, rgba(19, 209, 255, 1) 0%, rgba(19, 209, 255, 1) 0%, rgba(39, 137, 228, 1) 100%, rgba(39, 137, 228, 1) 100%) !important;
+    }
+    li:nth-child(4)  .el-progress-bar__inner{
+        background:linear-gradient(270deg, rgba(247, 49, 215, 1) 0%, rgba(247, 49, 215, 1) 0%, rgba(138, 37, 238, 1) 100%, rgba(138, 37, 238, 1) 100%) !important;
+    }
+    li:nth-child(5) .el-progress-bar__inner{
+        background:linear-gradient(270deg, rgba(247, 49, 215, 1) 0%, rgba(247, 49, 215, 1) 0%, rgba(138, 37, 238, 1) 100%, rgba(138, 37, 238, 1) 100%) !important;
+    }
+    li:nth-child(6)  .el-progress-bar__inner{
+        background:linear-gradient(270deg, rgba(247, 49, 215, 1) 0%, rgba(247, 49, 215, 1) 0%, rgba(138, 37, 238, 1) 100%, rgba(138, 37, 238, 1) 100%) !important;
+    }
+}
+
+

@@ -1,0 +1,81 @@
+#IndexPage {
+  height: 100%;
+  position: relative;
+}
+
+#IndexPage .header {
+  height: 70px;
+  background: #0938a3;
+  padding: 0 40px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+#IndexPage .header div {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#IndexPage .header div:last-child {
+  margin-right: 0px;
+}
+
+#IndexPage .header .title {
+  font-size: 28px;
+  line-height: 70px;
+  line-height: 70px;
+}
+
+#IndexPage .header .headerMessage {
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+}
+
+#IndexPage .header .headerMessage .header_login {
+  line-height: 70px;
+  vertical-align: top;
+}
+
+#IndexPage .header .headerMessage .revise_passwork,
+#IndexPage .header .headerMessage .out_login {
+  padding-top: 20px;
+}
+
+#IndexPage .header .headerMessage .revise_passwork span,
+#IndexPage .header .headerMessage .out_login span {
+  color: #76fcff;
+  margin-left: 5px;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 4px;
+}
+
+#IndexPage .header .headerMessage .out_login span {
+  margin-top: -3px;
+}
+
+#IndexPage nav {
+  height: 60px;
+  line-height: 60px;
+  background: #00276f;
+  border-top: 2px solid #051958;
+  color: #3e94b1;
+  font-size: 18px;
+}
+
+#IndexPage nav ul {
+  padding-left: 42px;
+}
+
+#IndexPage nav ul li {
+  display: inline-block;
+  width: 120px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#IndexPage nav ul .active {
+  color: #76fcff;
+  background: url("../assets/choosed.png") no-repeat center bottom;
+}

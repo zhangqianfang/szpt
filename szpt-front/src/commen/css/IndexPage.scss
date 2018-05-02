@@ -1,0 +1,72 @@
+#IndexPage {
+    height: 100%;
+    position: relative;
+    .header {
+      height: 70px;
+      background: #0938a3;
+      padding: 0 40px;
+      box-sizing: border-box;
+      color: #fff;
+      div {
+        display: inline-block;
+        margin-right: 30px;
+      }
+      div:last-child {
+        margin-right: 0px;
+      }
+      .title {
+        font-size: 28px;
+        line-height: 70px;
+        line-height: 70px;
+      }
+      .headerMessage {
+        display: inline-block;
+        float: right;
+        font-size: 18px;
+        .header_login {
+          line-height: 70px;
+          vertical-align: top;
+        }
+        .revise_passwork,
+        .out_login {
+          padding-top: 20px;
+          span {
+            color: #76fcff;
+  
+            margin-left: 5px;
+            vertical-align: top;
+            display: inline-block;
+            padding-top: 4px;
+          }
+        }
+        .out_login {
+          img {
+          }
+          span {
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+    nav {
+      height: 60px;
+      line-height: 60px;
+      background: #00276f;
+      border-top: 2px solid #051958;
+      color: #3e94b1;
+      font-size: 18px;
+      ul {
+        padding-left: 42px;
+        li {
+          display: inline-block;
+          width: 120px;
+          cursor: pointer;
+          text-align: center;
+        }
+        .active {
+          color: #76fcff;
+          background: url("../assets/choosed.png")no-repeat center bottom;
+        }
+      }
+    }
+  }

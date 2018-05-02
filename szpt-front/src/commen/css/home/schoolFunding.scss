@@ -1,0 +1,106 @@
+#schoolFunding {
+  z-index: 1;
+  height: 100%;
+  font-size: 0;
+  padding: 40px 0 0 40px;
+  box-sizing: border-box;
+  .title_total {
+    border-left: 5px solid #13c0ea;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .basic_top {
+    height: 500px;
+    .basic_left {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      font-size: 18px;
+      color: #fff;
+   
+      .left_title {
+        margin-top: 23px;
+      }
+    }
+    .basic_right {
+      font-size: 18px;
+      color: #fff;
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+      margin-top: 23px;
+      // margin-left: 2%;
+      .right_title {
+        // margin-top: 20px;
+      }
+    }
+  }
+  ul {
+    li {
+      width: 15%;
+      height: 86px;
+      border: 1px solid #2a5fd9;
+      position: relative;
+      font-size: 28px;
+      line-height: 104px;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-right: 1%;
+      display: inline-block;
+      .title {
+        position: absolute;
+        left: 7%;
+        top: -19px;
+        height: 40px;
+        background: #0938a3;
+        font-size: 16px;
+        color: #fff;
+        width: 85%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+      }
+      .left {
+        position: absolute;
+        left: -3px;
+        top: 24px;
+
+        height: 40px;
+        border: 2px solid #2789e4;
+      }
+      .right {
+        position: absolute;
+        right: -3px;
+        top: 24px;
+        height: 40px;
+        border: 2px solid #2789e4;
+      }
+    }
+    .li_color1,
+    .li_color7 {
+      color: #bb3127;
+    }
+    .li_color2,
+    .li_color8 {
+      color: #45a63b;
+    }
+    .li_color3,
+    .li_color9 {
+      color: #2e6ccf;
+    }
+    
+    .li_color4,
+    .li_color10 {
+      color: #c0c540;
+    }
+    .li_color5,
+    .li_color11 {
+      color: #c25721;
+    }
+    .li_color6,
+    .li_color12{
+       color:#2E6CCF;
+    }
+  }
+}
